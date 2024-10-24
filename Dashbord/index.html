@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KHALIL ALI</title>
+
+        <!-- link file fontAwesome -->
+        
+        <link rel="stylesheet" href="fontAwesome/css/all.css"/>
+
+        <!-- link File Swiper css -->
+        <link rel="stylesheet" href="swiperJs/swiper-bundle.min.css">
+
+        <!-- Link File CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+
+        <div class="notfcation">
+            <span><i onclick="showSecTogle('.drobdwon')" id="bell-btn" class="fa-solid fa-bell"></i></span>
+            <ul class="drobdwon">
+                <li>Canceled <span>3</span></li>
+                <li>has been Returnd<span>2</span></li>
+            </ul>
+        </div>
+
+        <div class="side-bar">
+            <a href="#" class="logo"><span>X</span>Premo</a>
+           
+                <ul class="side-links">
+                    <li class="active"><a href="#"><i class="fa-solid fa-house"></i>Control panel</a></li>
+                    <li><a href="elaksam.html"><i class="fa-solid fa-shop"></i>Store front</a></li>
+                    <li><a href="#"><i class="fa-solid fa-sack-dollar"></i>Sales</a></li>
+                    <li><a href="#"><i class="fa-solid fa-user"></i>Customers</a></li>
+                    <li><a href="#"><i class="fa-solid fa-chart-column"></i>Reports</a></li>
+                </ul>
+           
+        </div>
+
+        <div class="contanier">
+            <div class="top-sec">
+                <h4>Conrtrol panel</h4>
+            </div>
+
+            <div class="cont-fulid">
+                <div class="boxs">
+
+
+                    <div class="box active">
+             
+                            <div class="row">
+                                <span>480</span>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                
+                            </div>
+                            <h4>All orders</h4>
+             
+                    </div>
+
+                    <div class="box">
+                     
+                            <div class="row">
+                                <span>480</span>
+                                <i class="fa-regular fa-calendar-check"></i>
+                                
+                            </div>
+                            <h4>Request done</h4>
+                      
+                    </div>
+
+                    <div class="box">
+                       
+                            <div class="row">
+                                <span>480</span>
+                                <i class="fa-solid fa-list-check"></i>
+                                
+                            </div>
+                            <h4>It is being prepared</h4>
+                       
+                    </div>
+
+                    <div class="box">
+                     
+                            <div class="row">
+                                <span>480</span>
+                                <i class="fa-solid fa-truck-ramp-box"></i>
+                                
+                            </div>
+                            <h4>Waiting for shipping</h4>
+                      
+                    </div>
+
+                    <div class="box">
+                      
+                            <div class="row">
+                                <span>480</span>
+                                <i class="fa-solid fa-truck-arrow-right"></i>
+                                
+                            </div>
+                            <h4>Shipped</h4>
+                       
+                    </div>
+
+                    <div class="box">
+                      
+                            <div class="row">
+                                <span>480</span>
+                                <i class="fa-solid fa-truck-fast"></i>
+                                
+                            </div>
+                            <h4> On the way to you</h4>
+                       
+                    </div>
+
+                    <div class="box">
+                       
+                            <div class="row">
+                                <span>480</span>
+                                <i class="fa-solid fa-user-check"></i>
+                                
+                            </div>
+                            <h4>It was received</h4>
+                        
+                    </div>
+
+                    <div class="box">
+                    
+                            <div class="row">
+                                <span>480</span>
+                                <i class="fa-solid fa-phone-slash"></i>
+                                
+                            </div>
+                            <h4>No response </h4>
+                    
+                    </div>
+
+                    <div class="box">
+                    
+                            <div class="row">
+                                <span>480</span>
+                                <i class="fa-solid fa-file-circle-exclamation"></i>
+                                
+                            </div>
+                            <h4>Postponed</h4>
+                 
+                    </div>
+                    <div class="box">
+            
+                            <div class="row">
+                                <span>480</span>
+                                <i class="fa-solid fa-map-location-dot"></i>
+                                
+                            </div>
+                            <h4>Wrong address</h4>
+              
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <div class="more-btn-up">
+                <div class="elhalah">
+                    <select name="elhalah" id="elwlaya">
+                        <option disabled selected value="الولاية"> اختر الحالة</option>
+    
+                        <option value="تم الطلب">تم الطلب</option>
+                        <option value="يتم التجهيز">يتم التجهيز</option>
+                        <option value="في انتظار االشحن">في انتظار االشحن</option>
+                        <option value="تم الشحن">تم الشحن</option>
+                        <option value="في الطريق اليك">في الطريق اليك</option>
+                        <option value="تم الاستلام">تم الاستلام</option>
+                        <option value="الأغواط">لا يرد</option>
+                        <option value="الأغواط">تم التأجيل</option>
+                        <option value="الأغواط">عنوان خاطيء</option>
+                        <option value="الأغواط">تم الالغاء</option>
+                        <option value="الأغواط">تم الارجاع</option>
+                    </select>
+                </div>
+            </div> -->
+
+
+            <div class="last-order">
+
+            <span onclick="showSec('.show-serch-order')" class="btn btn-filter">Custom search</span>
+
+          
+
+                <div class="orders-section">
+
+
+
+
+                    <div class="show-serch-order">
+                        <h4 class="title-order"> Find the order</h4>
+                        <i onclick="closeSec('.show-serch-order')" class="fa-solid fa-circle-xmark"></i>
+                       
+                        <form action="">
+                        <div class="all-input">
+                            <div class="inp">
+                                <label for="">order number</label>
+    
+                            <input type="text" name="" id="" placeholder=" order number">
+                            </div>
+    
+                            <div class="inp">
+                                <label for="">Customer name</label>
+                            <input type="text" name="" id="" placeholder=" Customer name">
+                            </div>
+    
+                            <div class="inp">
+                                <label for="">phone number</label>
+                                <input type="text" name="" id="" placeholder=" phone number">
+                            </div>
+    
+                           <div class="inp">
+                            <label for="">the date</label>
+                            <input type="text" name="" id="" placeholder="the date">
+                           </div>
+                        </div>
+                       <button class="btn">research</button>
+                       </form>
+                       
+                    </div>
+
+
+
+                    <div class="show-edit-order">
+
+                        <h4 class="title-order">Modify the request</h4>
+
+                        <i onclick="closeSec('.show-edit-order')" class="fa-solid fa-circle-xmark"></i>
+
+                        <form action="">
+           
+                            <div class="all-input">
+                             
+        
+                                <div class="inp">
+                                    <label for="">Customer name</label>
+                                <input type="text" name="" id="" placeholder=" Customer name">
+                                </div>
+        
+                                <div class="inp">
+                                    <label for="">phone number</label>
+                                    <input type="text" name="" id="" placeholder=" phone number">
+                                </div>
+        
+                               <div class="inp">
+                                <label for="">the address</label>
+                                <input type="text" name="" id="" placeholder="the address">
+                               </div>
+
+                              
+                        
+    
+                                <div class="inp">
+                                  <label for="">Enter the discount coupon</label>
+                                  <input type="text" name="" id="" placeholder=" Coupon number">
+                                </div>
+
+                                <div class="table-edi-order">
+                                    <table>
+                                    <thead>
+                                        <tr>
+                                  
+                                           
+                                            <td> Requests</td>
+                                            <td>Quantity</td>
+                                            <td> Unit price</td>
+                                            <td>Total</td>
+                                            <td>delete</td>
+                                            
+                             
+                                          </tr>
+                                       </thead>
+                                        <tbody>
+                
+                                              <tr>
+                                              
+                                                <td>Order number one</td>
+                                                <td><input type="number"></td>
+                                                <td>706.00 DJ</td>
+                                                <td>706.DJ</td>
+                                                <td> <i class="fa-solid fa-trash"></i></td>
+                                                
+                
+                                                
+                                              </tr>
+
+                                              <tr>
+                                              
+                                                <td>Order number two</td>
+                                                <td><input type="number"></td>
+                                                <td>706.00 DJ</td>
+                                                <td>706.DJ</td>
+                                                <td> <i class="fa-solid fa-trash"></i></td>
+                                                
+                
+                                                
+                                              </tr>
+            
+            
+                
+                
+                                                
+                                        
+                                        </tbody>
+                                      </table>
+
+                                    
+                                </div>
+
+                                <div class="table-add-order">
+                                    <h5>Add a product</h5>
+                                    <form action="">
+                                        <div class="inp esm-montg">
+                                            <label for="">Enter the product name</label>
+                                            <input type="text" name="" id="" placeholder=" Enter the product name">
+                                            </div>
+                
+                                            <div class="inp count-montg">
+                                              <label for="">Enter the quantity</label>
+                                              <input type="number" name="" id="" placeholder="Enter the quantity">
+                                            </div>
+
+                                            <button class="btn">Add product</button>
+                                            <div class="all-price">
+                                                <p>Total : <span>255 DJ</span></p>
+                                            <p> Delivery price : <span>40 DJ</span></p>
+                                            </div>
+                                        </form>
+                                </div>
+
+                                <button class="btn">amendment</button>
+                            </div>
+                           
+                           </form>
+
+                    </div>
+
+
+
+                    <div class="show-desc-order">
+                        
+                        <h4 class="title-order">Order details</h4>
+
+                        <i onclick="closeSec('.show-desc-order')" class="fa-solid fa-circle-xmark"></i>
+                    </div>
+
+
+
+
+
+
+                    <table>
+                       <thead>
+                        <tr>
+                  
+                            <td class="checkboxtable"><input type="checkbox"></td>
+                            <td>order number</td>
+                            <td>Client</td>
+                            <td>Phone</td>
+                            <td>the condition</td>
+                            <td>Total</td>
+                            <td> Date added</td>
+                            <td>amendment</td>
+                          </tr>
+                       </thead>
+                        <tbody>
+
+                              <tr>
+                                <td class="checkboxtable"><input type="checkbox"></td>
+                                <td>15</td>
+                                <td>khalil</td>
+                                <td>01112119676</td>
+                                <td> <select name="condition" id="State">
+                                    <option disabled selected value="State"> Choose the status</option>
+                
+                                    <option value="تم الطلب">Request done</option>
+                                    <option value="يتم التجهيز">It is being prepared</option>
+                                    <option value="في انتظار االشحن">Waiting for shipping</option>
+                                    <option value="تم الشحن">Shipped</option>
+                                    <option value="في الطريق اليك">On the way to you</option>
+                                    <option value="تم الاستلام">Delivered</option>
+                                    <option value="الأغواط">He doesn't reply</option>
+                                    <option value="الأغواط">Postponed</option>
+                                    <option value="الأغواط">Wrong address</option>
+                                    <option value="الأغواط">Canceled</option>
+                                    <option value="الأغواط">It has been returned</option>
+                                </select></td>
+                                <td>706.DJ</td>
+                                <td>22/08/2023</td>
+                                <td><i onclick="showSec('.show-edit-order');scrltop()"  class="fa-solid fa-pen"></i>
+                                    <i onclick="showSecTogle('.show-more-info');" class="fa-solid fa-eye"></i>     
+                                </td>
+
+                          
+                                  <td class="show-more-info" colspan="8">
+                                 
+                                        <div class="div-moreinf">
+                                            <div class="more-info-order">
+                                                <p>Address : <span>Jordan, Irbid, Al Hosn Street</span></p>
+                                                <p>Email : <span>aboreda@gmail.com</span></p>
+                                                <p>Note : <span></span>Delivery of the order at 5 o'clock</p>
+                                            </div>
+
+                                            <table>
+
+                                            <thead>
+                                                <tr>
+
+                                                    <td colspan="2"> Requests</td>
+                                                    <td>Quantity</td>
+                                                    <td>Unit price</td>
+                                                    <td>Total</td>
+
+                                                  </tr>
+
+                                               </thead>
+
+                                                <tbody class="tbdoy-desc">
+                        
+                                                      <tr>
+                                                        <td><img src="images/4.jpg" alt=""></td>
+                                                        <td>order number three</td>
+                                                        <td>3</td>
+                                                        <td>706.00 DJ</td>
+                                                        <td>706.DJ</td>
+                                        
+                                                        
+                        
+                                                        
+                                                      </tr>
+        
+                                                      <tr>
+                                                        <td><img src="images/3.jpg" alt=""></td>
+                                                      
+                                                        <td>order number four</td>
+                                                        <td>4</td>
+                                                        <td>706.00 DJ</td>
+                                                        <td>706.DJ</td>
+                                      
+                                                        
+                        
+                                                        
+                                                      </tr>
+                                                                                                                                 
+                                                </tbody>
+
+                                              </table>
+                                            
+                                        </div>
+
+                                  </td>
+
+                                  
+                                </tr>
+
+
+                                <tr>
+                                    <td class="checkboxtable"><input type="checkbox"></td>
+                                    <td>15</td>
+                                    <td>alaa</td>
+                                    <td>01112119676</td>
+                                    <td> <select name="Choose the situation" id="The state">
+                                        <option disabled selected value="The state">  Choose the situation</option>
+                    
+                                        <option value="تم الطلب">Request done</option>
+                                        <option value="يتم التجهيز">It is being prepared</option>
+                                        <option value="في انتظار االشحن">Waiting for shipping</option>
+                                        <option value="تم الشحن">Shipped</option>
+                                        <option value="في الطريق اليك">On the way to you</option>
+                                        <option value="تم الاستلام">It was received</option>
+                                        <option value="الأغواط"> He doesn't reply</option>
+                                        <option value="الأغواط">Postponed</option>
+                                        <option value="الأغواط">Wrong address</option>
+                                        <option value="الأغواط">has been cancelled</option>
+                                        <option value="الأغواط">It has been returned</option>
+                                    </select></td>
+                                    <td>706.DJ</td>
+                                    <td>22/08/2023</td>
+                                    <td><i onclick="showSec('.show-edit-order');scrltop()"  class="fa-solid fa-pen"></i>
+                                        <i onclick="showSecTogle('.show-more-info');" class="fa-solid fa-eye"></i>     
+                                    </td>
+    
+                              
+                                      <td class="show-more-info" colspan="8">
+                                     
+                                            <div class="div-moreinf">
+                                                <div class="more-info-order">
+                                                    <p>Address : <span>Jordan, Irbid, Al Hosn Street</span></p>
+                                                    <p>email : <span>aboreda@gmail.com</span></p>
+                                                    <p>note : <span></span>Delivery of the order at 5 o'clock</p>
+                                                </div>
+    
+                                                <table>
+    
+                                                <thead>
+                                                    <tr>
+    
+                                                        <td colspan="2"> الطلبات</td>
+                                                        <td>الكمية</td>
+                                                        <td>سعر الوحدة</td>
+                                                        <td>الاجمالي</td>
+    
+                                                      </tr>
+    
+                                                   </thead>
+    
+                                                    <tbody class="tbdoy-desc">
+                            
+                                                          <tr>
+                                                            <td><img src="images/4.jpg" alt=""></td>
+                                                            <td>محول السفر من سامسونج EP-TA800 لشحن فائق السرعة بقوة 25 واط، لون اسود</td>
+                                                            <td>1</td>
+                                                            <td>706.00 DJ</td>
+                                                            <td>706.DJ</td>
+                                            
+                                                            
+                            
+                                                            
+                                                          </tr>
+            
+                                                          <tr>
+                                                            <td><img src="images/3.jpg" alt=""></td>
+                                                          
+                                                            <td>محول السفر من سامسونج EP-TA800 لشحن فائق السرعة بقوة 25 واط، لون اسود</td>
+                                                            <td>3</td>
+                                                            <td>706.00 DJ</td>
+                                                            <td>706.DJ</td>
+                                          
+                                                            
+                            
+                                                            
+                                                          </tr>
+                                                                                                                                     
+                                                    </tbody>
+    
+                                                  </table>
+                                                
+                                            </div>
+    
+                                      </td>
+    
+                                      
+                                    </tr>
+
+
+                                    <tr>
+                                        <td class="checkboxtable"><input type="checkbox"></td>
+                                        <td>15</td>
+                                        <td>osama</td>
+                                        <td>01112119676</td>
+                                        <td> <select name="elhalah" id="elwlaya">
+                                            <option disabled selected value="الولاية"> اختر الحالة</option>
+                        
+                                            <option value="تم الطلب">تم الطلب</option>
+                                            <option value="يتم التجهيز">يتم التجهيز</option>
+                                            <option value="في انتظار االشحن">في انتظار االشحن</option>
+                                            <option value="تم الشحن">تم الشحن</option>
+                                            <option value="في الطريق اليك">في الطريق اليك</option>
+                                            <option value="تم الاستلام">تم الاستلام</option>
+                                            <option value="الأغواط">لا يرد</option>
+                                            <option value="الأغواط">تم التأجيل</option>
+                                            <option value="الأغواط">عنوان خاطيء</option>
+                                            <option value="الأغواط">تم الالغاء</option>
+                                            <option value="الأغواط">تم الارجاع</option>
+                                        </select></td>
+                                        <td>706.DJ</td>
+                                        <td>22/08/2023</td>
+                                        <td><i onclick="showSec('.show-edit-order');scrltop()"  class="fa-solid fa-pen"></i>
+                                            <i onclick="showSecTogle('.show-more-info');" class="fa-solid fa-eye"></i>     
+                                        </td>
+        
+                                  
+                                          <td class="show-more-info" colspan="8">
+                                         
+                                                <div class="div-moreinf">
+                                                    <div class="more-info-order">
+                                                        <p>العنوان : <span>30ش مكة من الدوران</span></p>
+                                                        <p>الايميل : <span>aboreda@gmail.com</span></p>
+                                                        <p>ملاحظة : <span></span>تسليم المنتج الساعة خمسة فقط</p>
+                                                    </div>
+        
+                                                    <table>
+        
+                                                    <thead>
+                                                        <tr>
+        
+                                                            <td colspan="2"> الطلبات</td>
+                                                            <td>الكمية</td>
+                                                            <td>سعر الوحدة</td>
+                                                            <td>الاجمالي</td>
+        
+                                                          </tr>
+        
+                                                       </thead>
+        
+                                                        <tbody class="tbdoy-desc">
+                                
+                                                              <tr>
+                                                                <td><img src="images/4.jpg" alt=""></td>
+                                                                <td>محول السفر من سامسونج EP-TA800 لشحن فائق السرعة بقوة 25 واط، لون اسود</td>
+                                                                <td>1</td>
+                                                                <td>706.00 DJ</td>
+                                                                <td>706.DJ</td>
+                                                
+                                                                
+                                
+                                                                
+                                                              </tr>
+                
+                                                              <tr>
+                                                                <td><img src="images/3.jpg" alt=""></td>
+                                                              
+                                                                <td>محول السفر من سامسونج EP-TA800 لشحن فائق السرعة بقوة 25 واط، لون اسود</td>
+                                                                <td>3</td>
+                                                                <td>706.00 DJ</td>
+                                                                <td>706.DJ</td>
+                                              
+                                                                
+                                
+                                                                
+                                                              </tr>
+                                                                                                                                         
+                                                        </tbody>
+        
+                                                      </table>
+                                                    
+                                                </div>
+        
+                                          </td>
+        
+                                          
+                                        </tr>
+
+
+
+                                        <tr>
+                                            <td class="checkboxtable"><input type="checkbox"></td>
+                                            <td>15</td>
+                                            <td>Ali</td>
+                                            <td>01112119676</td>
+                                            <td> <select name="elhalah" id="elwlaya">
+                                                <option disabled selected value="الولاية"> اختر الحالة</option>
+                            
+                                                <option value="تم الطلب">تم الطلب</option>
+                                                <option value="يتم التجهيز">يتم التجهيز</option>
+                                                <option value="في انتظار االشحن">في انتظار االشحن</option>
+                                                <option value="تم الشحن">تم الشحن</option>
+                                                <option value="في الطريق اليك">في الطريق اليك</option>
+                                                <option value="تم الاستلام">تم الاستلام</option>
+                                                <option value="الأغواط">لا يرد</option>
+                                                <option value="الأغواط">تم التأجيل</option>
+                                                <option value="الأغواط">عنوان خاطيء</option>
+                                                <option value="الأغواط">تم الالغاء</option>
+                                                <option value="الأغواط">تم الارجاع</option>
+                                            </select></td>
+                                            <td>706.DJ</td>
+                                            <td>22/08/2023</td>
+                                            <td><i onclick="showSec('.show-edit-order');scrltop()"  class="fa-solid fa-pen"></i>
+                                                <i onclick="showSecTogle('.show-more-info');" class="fa-solid fa-eye"></i>     
+                                            </td>
+            
+                                      
+                                              <td class="show-more-info" colspan="8">
+                                             
+                                                    <div class="div-moreinf">
+                                                        <div class="more-info-order">
+                                                            <p>العنوان : <span>30ش مكة من الدوران</span></p>
+                                                            <p>الايميل : <span>aboreda@gmail.com</span></p>
+                                                            <p>ملاحظة : <span></span>تسليم المنتج الساعة خمسة فقط</p>
+                                                        </div>
+            
+                                                        <table>
+            
+                                                        <thead>
+                                                            <tr>
+            
+                                                                <td colspan="2"> الطلبات</td>
+                                                                <td>الكمية</td>
+                                                                <td>سعر الوحدة</td>
+                                                                <td>الاجمالي</td>
+            
+                                                              </tr>
+            
+                                                           </thead>
+            
+                                                            <tbody class="tbdoy-desc">
+                                    
+                                                                  <tr>
+                                                                    <td><img src="images/4.jpg" alt=""></td>
+                                                                    <td>محول السفر من سامسونج EP-TA800 لشحن فائق السرعة بقوة 25 واط، لون اسود</td>
+                                                                    <td>1</td>
+                                                                    <td>706.00 DJ</td>
+                                                                    <td>706.DJ</td>
+                                                    
+                                                                    
+                                    
+                                                                    
+                                                                  </tr>
+                    
+                                                                  <tr>
+                                                                    <td><img src="images/3.jpg" alt=""></td>
+                                                                  
+                                                                    <td>محول السفر من سامسونج EP-TA800 لشحن فائق السرعة بقوة 25 واط، لون اسود</td>
+                                                                    <td>3</td>
+                                                                    <td>706.00 DJ</td>
+                                                                    <td>706.DJ</td>
+                                                  
+                                                                    
+                                    
+                                                                    
+                                                                  </tr>
+                                                                                                                                             
+                                                            </tbody>
+            
+                                                          </table>
+                                                        
+                                                    </div>
+            
+                                              </td>
+            
+                                              
+                                            </tr>
+                                
+                        
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+      <script src="js/main.js"></script>
+    </body>
+    </html>
